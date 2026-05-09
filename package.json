@@ -1,0 +1,22 @@
+{
+  "name": "student-launch-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser-only launch preflight for student software projects.",
+  "type": "module",
+  "homepage": "https://tateprograms.com/student-launch-kit.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TateLyman/student-launch-kit.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "check": "node --check student-launch-kit.js",
+    "test": "npm run check",
+    "serve": "vite --host 127.0.0.1 --port 4179"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "license": "MIT"
+}
