@@ -2,7 +2,7 @@
 
 Browser-only launch preflight for student software projects.
 
-Student Launch Kit reads a local project folder and returns a launch-readiness score with a ranked fix queue. It is built for hackathon teams, first public launches, and student portfolios where the repo needs to make sense quickly to judges, maintainers, users, or collaborators.
+Student Launch Kit reads a local project folder and returns a launch-readiness score with a ranked fix queue and downloadable Markdown report. It is built for hackathon teams, first public launches, and student portfolios where the repo needs to make sense quickly to judges, maintainers, users, or collaborators.
 
 Live demo: <https://tateprograms.com/student-launch-kit.html>
 
@@ -16,6 +16,7 @@ Live demo: <https://tateprograms.com/student-launch-kit.html>
 - Service boundaries: Stripe webhook verification, Supabase RLS hints, Firebase rules.
 - Launch proof: demo URL, walkthrough video plan, reflection, contact path.
 - MCP/package launch readiness: `server.json` version alignment and npm publish-token risk.
+- Report export: a shareable Markdown launch report with signal scores, file evidence, and the highest-priority fixes.
 
 ## Privacy
 
